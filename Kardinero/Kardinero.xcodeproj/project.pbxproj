@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C6181342C78AD21005DE67A /* DGCharts in Frameworks */ = {isa = PBXBuildFile; productRef = 7C6181332C78AD21005DE67A /* DGCharts */; };
 		7C8BA3A52C74C9C50000DF88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8BA3A42C74C9C50000DF88 /* AppDelegate.swift */; };
 		7C8BA3A72C74C9C50000DF88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8BA3A62C74C9C50000DF88 /* ViewController.swift */; };
 		7C8BA3A92C74C9C60000DF88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C8BA3A82C74C9C60000DF88 /* Assets.xcassets */; };
@@ -14,6 +15,14 @@
 		7C8BA3B72C74C9C60000DF88 /* KardineroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8BA3B62C74C9C60000DF88 /* KardineroTests.swift */; };
 		7C8BA3C12C74C9C70000DF88 /* KardineroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8BA3C02C74C9C70000DF88 /* KardineroUITests.swift */; };
 		7C8BA3C32C74C9C70000DF88 /* KardineroUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8BA3C22C74C9C70000DF88 /* KardineroUITestsLaunchTests.swift */; };
+		7C8BA3D02C74CED40000DF88 /* ecgWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8BA3CF2C74CED40000DF88 /* ecgWindowController.swift */; };
+		7C8BA3D22C74CEF80000DF88 /* SCPParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8BA3D12C74CEF80000DF88 /* SCPParser.swift */; };
+		7C8BA3D52C74CF450000DF88 /* InfoWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8BA3D32C74CF450000DF88 /* InfoWindowController.swift */; };
+		7C8BA3D62C74CF450000DF88 /* InfoWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C8BA3D42C74CF450000DF88 /* InfoWindowController.xib */; };
+		7C8BA3D92C74CF780000DF88 /* ContentWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8BA3D72C74CF780000DF88 /* ContentWindowController.swift */; };
+		7C8BA3DA2C74CF780000DF88 /* ContentWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C8BA3D82C74CF780000DF88 /* ContentWindowController.xib */; };
+		7C9429562C7C8A7D0041525B /* DetailedEcgWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C9429552C7C8A7D0041525B /* DetailedEcgWindowController.xib */; };
+		7C9429572C7C8A7D0041525B /* DetailedEcgWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9429542C7C8A7D0041525B /* DetailedEcgWindowController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +42,21 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		7C62C01E2C789F9B00F42C28 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		7C62C0172C789F1500F42C28 /* Charts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Charts.framework; path = System/Library/Frameworks/Charts.framework; sourceTree = SDKROOT; };
 		7C8BA3A12C74C9C50000DF88 /* Kardinero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kardinero.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C8BA3A42C74C9C50000DF88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C8BA3A62C74C9C50000DF88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +68,14 @@
 		7C8BA3BC2C74C9C70000DF88 /* KardineroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KardineroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C8BA3C02C74C9C70000DF88 /* KardineroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KardineroUITests.swift; sourceTree = "<group>"; };
 		7C8BA3C22C74C9C70000DF88 /* KardineroUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KardineroUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7C8BA3CF2C74CED40000DF88 /* ecgWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ecgWindowController.swift; sourceTree = "<group>"; };
+		7C8BA3D12C74CEF80000DF88 /* SCPParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCPParser.swift; sourceTree = "<group>"; };
+		7C8BA3D32C74CF450000DF88 /* InfoWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoWindowController.swift; sourceTree = "<group>"; };
+		7C8BA3D42C74CF450000DF88 /* InfoWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoWindowController.xib; sourceTree = "<group>"; };
+		7C8BA3D72C74CF780000DF88 /* ContentWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentWindowController.swift; sourceTree = "<group>"; };
+		7C8BA3D82C74CF780000DF88 /* ContentWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContentWindowController.xib; sourceTree = "<group>"; };
+		7C9429542C7C8A7D0041525B /* DetailedEcgWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedEcgWindowController.swift; sourceTree = "<group>"; };
+		7C9429552C7C8A7D0041525B /* DetailedEcgWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailedEcgWindowController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C6181342C78AD21005DE67A /* DGCharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +104,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C62C0162C789F1500F42C28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C62C0172C789F1500F42C28 /* Charts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7C8BA3982C74C9C50000DF88 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +119,7 @@
 				7C8BA3B52C74C9C60000DF88 /* KardineroTests */,
 				7C8BA3BF2C74C9C70000DF88 /* KardineroUITests */,
 				7C8BA3A22C74C9C50000DF88 /* Products */,
+				7C62C0162C789F1500F42C28 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +138,17 @@
 			children = (
 				7C8BA3A42C74C9C50000DF88 /* AppDelegate.swift */,
 				7C8BA3A62C74C9C50000DF88 /* ViewController.swift */,
+				7C8BA3CF2C74CED40000DF88 /* ecgWindowController.swift */,
+				7C8BA3D12C74CEF80000DF88 /* SCPParser.swift */,
+				7C9429542C7C8A7D0041525B /* DetailedEcgWindowController.swift */,
+				7C9429552C7C8A7D0041525B /* DetailedEcgWindowController.xib */,
+				7C8BA3D72C74CF780000DF88 /* ContentWindowController.swift */,
+				7C8BA3D82C74CF780000DF88 /* ContentWindowController.xib */,
 				7C8BA3A82C74C9C60000DF88 /* Assets.xcassets */,
 				7C8BA3AA2C74C9C60000DF88 /* Main.storyboard */,
 				7C8BA3AD2C74C9C60000DF88 /* Kardinero.entitlements */,
+				7C8BA3D32C74CF450000DF88 /* InfoWindowController.swift */,
+				7C8BA3D42C74CF450000DF88 /* InfoWindowController.xib */,
 			);
 			path = Kardinero;
 			sourceTree = "<group>";
@@ -131,12 +180,16 @@
 				7C8BA39D2C74C9C50000DF88 /* Sources */,
 				7C8BA39E2C74C9C50000DF88 /* Frameworks */,
 				7C8BA39F2C74C9C50000DF88 /* Resources */,
+				7C62C01E2C789F9B00F42C28 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Kardinero;
+			packageProductDependencies = (
+				7C6181332C78AD21005DE67A /* DGCharts */,
+			);
 			productName = Kardinero;
 			productReference = 7C8BA3A12C74C9C50000DF88 /* Kardinero.app */;
 			productType = "com.apple.product-type.application";
@@ -209,6 +262,9 @@
 				Base,
 			);
 			mainGroup = 7C8BA3982C74C9C50000DF88;
+			packageReferences = (
+				7C6181322C78AD21005DE67A /* XCRemoteSwiftPackageReference "Charts" */,
+			);
 			productRefGroup = 7C8BA3A22C74C9C50000DF88 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -227,6 +283,9 @@
 			files = (
 				7C8BA3A92C74C9C60000DF88 /* Assets.xcassets in Resources */,
 				7C8BA3AC2C74C9C60000DF88 /* Base in Resources */,
+				7C9429562C7C8A7D0041525B /* DetailedEcgWindowController.xib in Resources */,
+				7C8BA3D62C74CF450000DF88 /* InfoWindowController.xib in Resources */,
+				7C8BA3DA2C74CF780000DF88 /* ContentWindowController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,8 +310,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C8BA3D52C74CF450000DF88 /* InfoWindowController.swift in Sources */,
 				7C8BA3A72C74C9C50000DF88 /* ViewController.swift in Sources */,
+				7C8BA3D22C74CEF80000DF88 /* SCPParser.swift in Sources */,
+				7C8BA3D02C74CED40000DF88 /* ecgWindowController.swift in Sources */,
 				7C8BA3A52C74C9C50000DF88 /* AppDelegate.swift in Sources */,
+				7C8BA3D92C74CF780000DF88 /* ContentWindowController.swift in Sources */,
+				7C9429572C7C8A7D0041525B /* DetailedEcgWindowController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -576,6 +640,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7C6181322C78AD21005DE67A /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7C6181332C78AD21005DE67A /* DGCharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7C6181322C78AD21005DE67A /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = DGCharts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7C8BA3992C74C9C50000DF88 /* Project object */;
 }
