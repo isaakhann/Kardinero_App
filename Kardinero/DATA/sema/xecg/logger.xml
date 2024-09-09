@@ -1,0 +1,159 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <Logger>
+    <Time>01:00</Time>
+    <Rate>128</Rate>
+    <Beats>111</Beats>
+    <I>ID:0 Match:108 - %97</I>
+    <II>ID:3 Match:111 - %100</II>
+    <III>ID:0 Match:111 - %100</III>
+    <aVR>ID:2 Match:111 - %100</aVR>
+    <aVL>ID:0 Match:111 - %100</aVL>
+    <aVF>ID:0 Match:111 - %100</aVF>
+    <V1>ID:0 Match:108 - %97</V1>
+    <V2>ID:1 Match:111 - %100</V2>
+    <V3>ID:0 Match:111 - %100</V3>
+    <V4>ID:0 Match:111 - %100</V4>
+    <V5>ID:0 Match:111 - %100</V5>
+    <V6>ID:0 Match:111 - %100</V6>
+  </Logger>
+  <Logger>
+    <Time>02:00</Time>
+    <Rate>135</Rate>
+    <Beats>245</Beats>
+    <I>ID:0 Match:239 - %97</I>
+    <II>ID:3 Match:245 - %100</II>
+    <III>ID:0 Match:245 - %100</III>
+    <aVR>ID:2 Match:245 - %100</aVR>
+    <aVL>ID:0 Match:245 - %100</aVL>
+    <aVF>ID:0 Match:245 - %100</aVF>
+    <V1>ID:0 Match:214 - %87</V1>
+    <V2>ID:1 Match:245 - %100</V2>
+    <V3>ID:0 Match:245 - %100</V3>
+    <V4>ID:0 Match:245 - %100</V4>
+    <V5>ID:0 Match:245 - %100</V5>
+    <V6>ID:0 Match:245 - %100</V6>
+  </Logger>
+  <Logger>
+    <Time>03:00</Time>
+    <Rate>130</Rate>
+    <Beats>376</Beats>
+    <I>ID:0 Match:368 - %97</I>
+    <II>ID:3 Match:376 - %100</II>
+    <III>ID:0 Match:376 - %100</III>
+    <aVR>ID:2 Match:376 - %100</aVR>
+    <aVL>ID:0 Match:376 - %100</aVL>
+    <aVF>ID:0 Match:376 - %100</aVF>
+    <V1>ID:0 Match:281 - %74</V1>
+    <V2>ID:1 Match:376 - %100</V2>
+    <V3>ID:0 Match:376 - %100</V3>
+    <V4>ID:0 Match:376 - %100</V4>
+    <V5>ID:0 Match:376 - %100</V5>
+    <V6>ID:0 Match:376 - %100</V6>
+  </Logger>
+  <Logger>
+    <Time>04:00</Time>
+    <Rate>156</Rate>
+    <Beats>523</Beats>
+    <I>ID:0 Match:477 - %91</I>
+    <II>ID:3 Match:523 - %100</II>
+    <III>ID:0 Match:523 - %100</III>
+    <aVR>ID:2 Match:523 - %100</aVR>
+    <aVL>ID:0 Match:523 - %100</aVL>
+    <aVF>ID:0 Match:523 - %100</aVF>
+    <V1>ID:0 Match:330 - %63</V1>
+    <V2>ID:1 Match:523 - %100</V2>
+    <V3>ID:0 Match:523 - %100</V3>
+    <V4>ID:0 Match:523 - %100</V4>
+    <V5>ID:0 Match:523 - %100</V5>
+    <V6>ID:0 Match:523 - %100</V6>
+  </Logger>
+  <Logger>
+    <Time>05:00</Time>
+    <Rate>161</Rate>
+    <Beats>683</Beats>
+    <I>ID:0 Match:586 - %85</I>
+    <II>ID:3 Match:683 - %100</II>
+    <III>ID:0 Match:683 - %100</III>
+    <aVR>ID:2 Match:683 - %100</aVR>
+    <aVL>ID:0 Match:683 - %100</aVL>
+    <aVF>ID:0 Match:683 - %100</aVF>
+    <V1>ID:0 Match:408 - %59</V1>
+    <V2>ID:1 Match:683 - %100</V2>
+    <V3>ID:0 Match:683 - %100</V3>
+    <V4>ID:0 Match:683 - %100</V4>
+    <V5>ID:0 Match:683 - %100</V5>
+    <V6>ID:0 Match:683 - %100</V6>
+  </Logger>
+  <Logger>
+    <Time>06:00</Time>
+    <Rate>164</Rate>
+    <Beats>845</Beats>
+    <I>ID:0 Match:691 - %81</I>
+    <II>ID:3 Match:845 - %100</II>
+    <III>ID:0 Match:845 - %100</III>
+    <aVR>ID:2 Match:845 - %100</aVR>
+    <aVL>ID:0 Match:845 - %100</aVL>
+    <aVF>ID:0 Match:845 - %100</aVF>
+    <V1>ID:0 Match:491 - %58</V1>
+    <V2>ID:1 Match:845 - %100</V2>
+    <V3>ID:0 Match:845 - %100</V3>
+    <V4>ID:0 Match:845 - %100</V4>
+    <V5>ID:0 Match:845 - %100</V5>
+    <V6>ID:0 Match:845 - %100</V6>
+  </Logger>
+  <Logger>
+    <Time>07:00</Time>
+    <Rate>172</Rate>
+    <Beats>1015</Beats>
+    <I>ID:0 Match:713 - %70</I>
+    <II>ID:3 Match:1007 - %99</II>
+    <III>ID:0 Match:1009 - %99</III>
+    <aVR>ID:2 Match:976 - %96</aVR>
+    <aVL>ID:0 Match:997 - %98</aVL>
+    <aVF>ID:0 Match:1009 - %99</aVF>
+    <V1>ID:0 Match:531 - %52</V1>
+    <V2>ID:1 Match:999 - %98</V2>
+    <V3>ID:0 Match:999 - %98</V3>
+    <V4>ID:0 Match:1000 - %98</V4>
+    <V5>ID:0 Match:1006 - %99</V5>
+    <V6>ID:0 Match:1013 - %99</V6>
+  </Logger>
+  <Logger>
+    <Time>08:00</Time>
+    <Rate>168</Rate>
+    <Beats>1184</Beats>
+    <I>ID:0 Match:764 - %64</I>
+    <II>ID:3 Match:1175 - %99</II>
+    <III>ID:0 Match:1177 - %99</III>
+    <aVR>ID:2 Match:1139 - %96</aVR>
+    <aVL>ID:0 Match:1164 - %98</aVL>
+    <aVF>ID:0 Match:1177 - %99</aVF>
+    <V1>ID:0 Match:587 - %49</V1>
+    <V2>ID:1 Match:1167 - %98</V2>
+    <V3>ID:0 Match:1165 - %98</V3>
+    <V4>ID:0 Match:1168 - %98</V4>
+    <V5>ID:0 Match:1174 - %99</V5>
+    <V6>ID:0 Match:1181 - %99</V6>
+  </Logger>
+  <Logger>
+    <Time>09:00</Time>
+    <Rate>166</Rate>
+    <Beats>1352</Beats>
+    <I>ID:0 Match:819 - %60</I>
+    <II>ID:3 Match:1342 - %99</II>
+    <III>ID:0 Match:1344 - %99</III>
+    <aVR>ID:2 Match:1300 - %96</aVR>
+    <aVL>ID:0 Match:1331 - %98</aVL>
+    <aVF>ID:0 Match:1344 - %99</aVF>
+    <V1>ID:0 Match:664 - %49</V1>
+    <V2>ID:1 Match:1334 - %98</V2>
+    <V3>ID:0 Match:1329 - %98</V3>
+    <V4>ID:0 Match:1330 - %98</V4>
+    <V5>ID:0 Match:1341 - %99</V5>
+    <V6>ID:0 Match:1348 - %99</V6>
+  </Logger>
+  <Logger>
+    <Time>C:\Users\KN\Documents\EDM_WorkSpace\Sema_ATAMAN YILMAZ_17360340172\XECG_20240717_115008</Time>
+  </Logger>
+</DocumentElement>

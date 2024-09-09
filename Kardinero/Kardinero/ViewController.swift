@@ -3,17 +3,116 @@ import UniformTypeIdentifiers
 class ViewController: NSViewController {
     @IBOutlet weak var addFileButton: NSButton!
     @IBOutlet weak var findInfo: NSButton!
-    @IBOutlet weak var convertButton: NSButton!
+    @IBOutlet weak var downloadCSV: NSButton!
     override func viewDidLoad() {
         print("AA")
         super.viewDidLoad()
       
     }
     
-    @IBAction func convertCsv(_ sender: Any) {
-    }
     // Example IBOutlets for the buttons
    
+    @IBAction func downloadCSV(_ sender: Any) {
+        let dialog = NSOpenPanel()
+
+        dialog.title = "Choose a .scp file"
+        dialog.allowedFileTypes = ["scp"]
+        dialog.allowsMultipleSelection = false
+
+        if dialog.runModal() == .OK {
+            guard let url = dialog.url else { return }
+            do {
+                let scpParser = SCPParser()
+                let filePath = url.path
+                
+                // Extract patient information
+                let patientInfo = scpParser.extractInfoFromScp(filePath: filePath)
+                
+                // Extract the first name from patient info
+                let firstName = extractFirstName(from: patientInfo)
+                
+                // Read file data
+                let fileData = try Data(contentsOf: url)
+                
+                // Extract ECG data
+                let ecgData = try scpParser.extractEcgData(fileBytes: fileData)
+                
+                // Calculate derived leads (III, aVR, aVL, aVF)
+                let fullEcgData = calculateDerivedLeads(ecgData: ecgData)
+                
+                // Convert to CSV format
+                let csvString = convertToCSV(patientInfo: patientInfo, ecgData: fullEcgData)
+                
+                // Save CSV
+                let saveDialog = NSSavePanel()
+                saveDialog.title = "Save CSV File"
+                saveDialog.allowedFileTypes = ["csv"]
+                saveDialog.nameFieldStringValue = "\(firstName).csv" // Set the default filename
+
+                if saveDialog.runModal() == .OK, let saveURL = saveDialog.url {
+                    try csvString.write(to: saveURL, atomically: true, encoding: .utf8)
+                }
+            } catch {
+                print("Error parsing SCP file or writing CSV: \(error)")
+            }
+        }
+    }
+
+    private func extractFirstName(from patientInfo: String) -> String {
+        let lines = patientInfo.split(separator: "\n")
+        if let nameLine = lines.first(where: { $0.starts(with: "Name:") }) {
+            let nameComponents = nameLine.split(separator: " ")
+            if nameComponents.count > 1 {
+                return String(nameComponents[1]) // Assuming the first name is the second word
+            }
+        }
+        return "Patient"
+    }
+
+
+    private func calculateDerivedLeads(ecgData: [[Int]]) -> [[Int]] {
+            var fullEcgData = ecgData
+            
+            let leadI = ecgData[0]
+            let leadII = ecgData[1]
+            
+            // Calculate Lead III = Lead II - Lead I
+            let leadIII = zip(leadII, leadI).map { $0 - $1 }
+            
+            // Calculate aVR = -(Lead I + Lead II) / 2
+            let aVR = zip(leadI, leadII).map { -($0 + $1) / 2 }
+            
+            // Calculate aVL = (Lead I - Lead III) / 2
+            let aVL = zip(leadI, leadIII).map { ($0 - $1) / 2 }
+            
+            // Calculate aVF = (Lead II + Lead III) / 2
+            let aVF = zip(leadII, leadIII).map { ($0 + $1) / 2 }
+            
+            // Append derived leads to the full ECG data
+            fullEcgData.append(leadIII)
+            fullEcgData.append(aVR)
+            fullEcgData.append(aVL)
+            fullEcgData.append(aVF)
+            
+            return fullEcgData
+        }
+        
+        private func convertToCSV(patientInfo: String, ecgData: [[Int]]) -> String {
+            var csv = "\(patientInfo)\n"
+            csv += "Lead I,Lead II,Lead V1,Lead V2,Lead V3,Lead V4,Lead V5,Lead V6,Lead III,aVR,aVL,aVF\n"
+            
+            let maxLength = ecgData.map { $0.count }.max() ?? 0
+            
+            for i in 0..<maxLength {
+                var row = ""
+                for lead in ecgData {
+                    row += i < lead.count ? "\(lead[i])," : ","
+                }
+                csv += "\(row.dropLast())\n"
+            }
+            
+            return csv
+        }
     @IBAction func addFileButton(_ sender: Any) {
         print("Works")
         let openPanel = NSOpenPanel()

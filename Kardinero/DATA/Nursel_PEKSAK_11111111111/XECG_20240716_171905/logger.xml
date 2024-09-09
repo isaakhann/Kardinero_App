@@ -1,0 +1,125 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <Logger>
+    <Time>01:00</Time>
+    <Rate>123</Rate>
+    <Beats>116</Beats>
+    <I>ID:0 Match:114 - %98</I>
+    <II>ID:0 Match:116 - %100</II>
+    <III>ID:0 Match:116 - %100</III>
+    <aVR>ID:0 Match:115 - %99</aVR>
+    <aVL>ID:0 Match:94 - %81</aVL>
+    <aVF>ID:0 Match:116 - %100</aVF>
+    <V1>ID:0 Match:116 - %100</V1>
+    <V2>ID:1 Match:114 - %98</V2>
+    <V3>ID:3 Match:115 - %99</V3>
+    <V4>ID:0 Match:116 - %100</V4>
+    <V5>ID:2 Match:116 - %100</V5>
+    <V6>ID:2 Match:116 - %100</V6>
+  </Logger>
+  <Logger>
+    <Time>02:00</Time>
+    <Rate>132</Rate>
+    <Beats>246</Beats>
+    <I>ID:0 Match:243 - %98</I>
+    <II>ID:0 Match:246 - %100</II>
+    <III>ID:0 Match:246 - %100</III>
+    <aVR>ID:0 Match:245 - %99</aVR>
+    <aVL>ID:0 Match:219 - %89</aVL>
+    <aVF>ID:0 Match:246 - %100</aVF>
+    <V1>ID:0 Match:246 - %100</V1>
+    <V2>ID:1 Match:244 - %99</V2>
+    <V3>ID:3 Match:245 - %99</V3>
+    <V4>ID:0 Match:246 - %100</V4>
+    <V5>ID:2 Match:246 - %100</V5>
+    <V6>ID:2 Match:246 - %100</V6>
+  </Logger>
+  <Logger>
+    <Time>03:00</Time>
+    <Rate>128</Rate>
+    <Beats>376</Beats>
+    <I>ID:0 Match:373 - %99</I>
+    <II>ID:0 Match:376 - %100</II>
+    <III>ID:0 Match:376 - %100</III>
+    <aVR>ID:0 Match:375 - %99</aVR>
+    <aVL>ID:0 Match:345 - %91</aVL>
+    <aVF>ID:0 Match:376 - %100</aVF>
+    <V1>ID:0 Match:376 - %100</V1>
+    <V2>ID:1 Match:374 - %99</V2>
+    <V3>ID:3 Match:370 - %98</V3>
+    <V4>ID:0 Match:376 - %100</V4>
+    <V5>ID:2 Match:376 - %100</V5>
+    <V6>ID:2 Match:376 - %100</V6>
+  </Logger>
+  <Logger>
+    <Time>04:00</Time>
+    <Rate>140</Rate>
+    <Beats>511</Beats>
+    <I>ID:0 Match:506 - %99</I>
+    <II>ID:0 Match:511 - %100</II>
+    <III>ID:0 Match:511 - %100</III>
+    <aVR>ID:0 Match:510 - %99</aVR>
+    <aVL>ID:0 Match:478 - %93</aVL>
+    <aVF>ID:0 Match:511 - %100</aVF>
+    <V1>ID:0 Match:511 - %100</V1>
+    <V2>ID:1 Match:509 - %99</V2>
+    <V3>ID:3 Match:503 - %98</V3>
+    <V4>ID:0 Match:511 - %100</V4>
+    <V5>ID:2 Match:511 - %100</V5>
+    <V6>ID:2 Match:511 - %100</V6>
+  </Logger>
+  <Logger>
+    <Time>05:00</Time>
+    <Rate>147</Rate>
+    <Beats>655</Beats>
+    <I>ID:0 Match:645 - %98</I>
+    <II>ID:0 Match:655 - %100</II>
+    <III>ID:0 Match:655 - %100</III>
+    <aVR>ID:0 Match:654 - %99</aVR>
+    <aVL>ID:0 Match:614 - %93</aVL>
+    <aVF>ID:0 Match:655 - %100</aVF>
+    <V1>ID:0 Match:655 - %100</V1>
+    <V2>ID:1 Match:653 - %99</V2>
+    <V3>ID:3 Match:637 - %97</V3>
+    <V4>ID:0 Match:655 - %100</V4>
+    <V5>ID:2 Match:655 - %100</V5>
+    <V6>ID:2 Match:655 - %100</V6>
+  </Logger>
+  <Logger>
+    <Time>06:00</Time>
+    <Rate>150</Rate>
+    <Beats>802</Beats>
+    <I>ID:0 Match:786 - %98</I>
+    <II>ID:0 Match:802 - %100</II>
+    <III>ID:0 Match:802 - %100</III>
+    <aVR>ID:0 Match:801 - %99</aVR>
+    <aVL>ID:0 Match:759 - %94</aVL>
+    <aVF>ID:0 Match:802 - %100</aVF>
+    <V1>ID:0 Match:802 - %100</V1>
+    <V2>ID:1 Match:800 - %99</V2>
+    <V3>ID:3 Match:779 - %97</V3>
+    <V4>ID:0 Match:802 - %100</V4>
+    <V5>ID:2 Match:802 - %100</V5>
+    <V6>ID:2 Match:802 - %100</V6>
+  </Logger>
+  <Logger>
+    <Time>07:00</Time>
+    <Rate>156</Rate>
+    <Beats>958</Beats>
+    <I>ID:0 Match:936 - %97</I>
+    <II>ID:0 Match:958 - %100</II>
+    <III>ID:0 Match:958 - %100</III>
+    <aVR>ID:0 Match:957 - %99</aVR>
+    <aVL>ID:0 Match:899 - %93</aVL>
+    <aVF>ID:0 Match:958 - %100</aVF>
+    <V1>ID:0 Match:958 - %100</V1>
+    <V2>ID:1 Match:956 - %99</V2>
+    <V3>ID:3 Match:931 - %97</V3>
+    <V4>ID:0 Match:958 - %100</V4>
+    <V5>ID:2 Match:958 - %100</V5>
+    <V6>ID:2 Match:958 - %100</V6>
+  </Logger>
+  <Logger>
+    <Time>C:\Users\KN\Documents\EDM_WorkSpace\Nursel_PEKSAK_11111111111\XECG_20240716_171905</Time>
+  </Logger>
+</DocumentElement>

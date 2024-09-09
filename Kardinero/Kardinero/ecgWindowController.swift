@@ -70,13 +70,7 @@ class EcgWindowController: NSWindowController {
 
             chartViewLeadMapping[chartView] = index
 
-            // Add gesture recognizer for click
-            let clickGesture = NSClickGestureRecognizer(target: self, action: #selector(chartClicked(_:)))
-            chartView.addGestureRecognizer(clickGesture)
-            
-            // Add gesture recognizer for pinch (zoom)
-            let pinchGesture = NSMagnificationGestureRecognizer(target: self, action: #selector(handlePinchGesture(_:)))
-            leadView.addGestureRecognizer(pinchGesture)
+          
 
             leadView.addSubview(chartView)
             gridContainerView.addSubview(leadView)
@@ -87,37 +81,7 @@ class EcgWindowController: NSWindowController {
     }
 
     // Handle chart click events
-    @objc private func chartClicked(_ sender: NSClickGestureRecognizer) {
-        guard let chartView = sender.view as? LineChartView, let leadIndex = chartViewLeadMapping[chartView] else {
-            print("Click not detected correctly.")
-            return
-        }
-        print("Lead \(leadIndex) was clicked.")
-        openDetailedViewForLead(leadIndex: leadIndex)
-    }
-
-    // Handle pinch gestures for zoom
-    @objc private func handlePinchGesture(_ sender: NSMagnificationGestureRecognizer) {
-        guard let leadView = sender.view, let chartView = leadView.subviews.first as? LineChartView else {
-            return
-        }
-        
-        let pinchScale = sender.magnification
-        if pinchScale != 0 {
-            // Update the X and Y axis scales
-            let scaleX = pinchScale > 0 ? 1.1 : 0.9
-            let scaleY = pinchScale > 0 ? 1.1 : 0.9
-            
-            // Pinch horizontally for X-axis, vertically for Y-axis zoom
-            if abs(sender.location(in: leadView).x) > abs(sender.location(in: leadView).y) {
-                chartView.zoom(scaleX: scaleX, scaleY: 1, x: chartView.frame.width / 2, y: chartView.frame.height / 2)
-            } else {
-                chartView.zoom(scaleX: 1, scaleY: scaleY, x: chartView.frame.width / 2, y: chartView.frame.height / 2)
-            }
-        }
-        
-        sender.magnification = 0 // Reset magnification
-    }
+  
 
     // Open a new window with a detailed view of the clicked lead
     private func openDetailedViewForLead(leadIndex: Int) {

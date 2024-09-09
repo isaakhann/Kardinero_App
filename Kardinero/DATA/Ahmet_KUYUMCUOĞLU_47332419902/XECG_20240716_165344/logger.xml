@@ -1,0 +1,142 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <Logger>
+    <Time>01:00</Time>
+    <Rate>98</Rate>
+    <Beats>86</Beats>
+    <I>ID:0 Match:86 - %100</I>
+    <II>ID:2 Match:86 - %100</II>
+    <III>ID:2 Match:86 - %100</III>
+    <aVR>ID:2 Match:86 - %100</aVR>
+    <aVL>ID:1 Match:86 - %100</aVL>
+    <aVF>ID:2 Match:86 - %100</aVF>
+    <V1>ID:0 Match:86 - %100</V1>
+    <V2>ID:1 Match:86 - %100</V2>
+    <V3>ID:1 Match:86 - %100</V3>
+    <V4>ID:1 Match:86 - %100</V4>
+    <V5>ID:0 Match:86 - %100</V5>
+    <V6>ID:1 Match:86 - %100</V6>
+  </Logger>
+  <Logger>
+    <Time>02:00</Time>
+    <Rate>104</Rate>
+    <Beats>188</Beats>
+    <I>ID:0 Match:188 - %100</I>
+    <II>ID:2 Match:188 - %100</II>
+    <III>ID:2 Match:188 - %100</III>
+    <aVR>ID:2 Match:188 - %100</aVR>
+    <aVL>ID:1 Match:188 - %100</aVL>
+    <aVF>ID:2 Match:188 - %100</aVF>
+    <V1>ID:0 Match:188 - %100</V1>
+    <V2>ID:1 Match:188 - %100</V2>
+    <V3>ID:1 Match:188 - %100</V3>
+    <V4>ID:1 Match:188 - %100</V4>
+    <V5>ID:0 Match:188 - %100</V5>
+    <V6>ID:1 Match:188 - %100</V6>
+  </Logger>
+  <Logger>
+    <Time>03:00</Time>
+    <Rate>108</Rate>
+    <Beats>295</Beats>
+    <I>ID:0 Match:291 - %98</I>
+    <II>ID:2 Match:294 - %99</II>
+    <III>ID:2 Match:294 - %99</III>
+    <aVR>ID:2 Match:294 - %99</aVR>
+    <aVL>ID:1 Match:294 - %99</aVL>
+    <aVF>ID:2 Match:294 - %99</aVF>
+    <V1>ID:0 Match:291 - %98</V1>
+    <V2>ID:1 Match:294 - %99</V2>
+    <V3>ID:1 Match:294 - %99</V3>
+    <V4>ID:1 Match:294 - %99</V4>
+    <V5>ID:0 Match:294 - %99</V5>
+    <V6>ID:1 Match:295 - %100</V6>
+  </Logger>
+  <Logger>
+    <Time>04:00</Time>
+    <Rate>120</Rate>
+    <Beats>410</Beats>
+    <I>ID:0 Match:392 - %95</I>
+    <II>ID:2 Match:409 - %99</II>
+    <III>ID:2 Match:409 - %99</III>
+    <aVR>ID:2 Match:409 - %99</aVR>
+    <aVL>ID:1 Match:407 - %99</aVL>
+    <aVF>ID:2 Match:409 - %99</aVF>
+    <V1>ID:0 Match:386 - %94</V1>
+    <V2>ID:1 Match:409 - %99</V2>
+    <V3>ID:1 Match:408 - %99</V3>
+    <V4>ID:1 Match:409 - %99</V4>
+    <V5>ID:0 Match:409 - %99</V5>
+    <V6>ID:1 Match:410 - %100</V6>
+  </Logger>
+  <Logger>
+    <Time>05:00</Time>
+    <Rate>132</Rate>
+    <Beats>535</Beats>
+    <I>ID:0 Match:501 - %93</I>
+    <II>ID:2 Match:533 - %99</II>
+    <III>ID:2 Match:534 - %99</III>
+    <aVR>ID:2 Match:533 - %99</aVR>
+    <aVL>ID:1 Match:532 - %99</aVL>
+    <aVF>ID:2 Match:534 - %99</aVF>
+    <V1>ID:0 Match:467 - %87</V1>
+    <V2>ID:1 Match:533 - %99</V2>
+    <V3>ID:1 Match:532 - %99</V3>
+    <V4>ID:1 Match:533 - %99</V4>
+    <V5>ID:0 Match:533 - %99</V5>
+    <V6>ID:1 Match:535 - %100</V6>
+  </Logger>
+  <Logger>
+    <Time>06:00</Time>
+    <Rate>133</Rate>
+    <Beats>668</Beats>
+    <I>ID:0 Match:628 - %94</I>
+    <II>ID:2 Match:666 - %99</II>
+    <III>ID:2 Match:667 - %99</III>
+    <aVR>ID:2 Match:666 - %99</aVR>
+    <aVL>ID:1 Match:665 - %99</aVL>
+    <aVF>ID:2 Match:667 - %99</aVF>
+    <V1>ID:0 Match:554 - %82</V1>
+    <V2>ID:1 Match:666 - %99</V2>
+    <V3>ID:1 Match:665 - %99</V3>
+    <V4>ID:1 Match:666 - %99</V4>
+    <V5>ID:0 Match:666 - %99</V5>
+    <V6>ID:1 Match:668 - %100</V6>
+  </Logger>
+  <Logger>
+    <Time>07:00</Time>
+    <Rate>147</Rate>
+    <Beats>809</Beats>
+    <I>ID:0 Match:734 - %90</I>
+    <II>ID:2 Match:803 - %99</II>
+    <III>ID:2 Match:798 - %98</III>
+    <aVR>ID:2 Match:801 - %99</aVR>
+    <aVL>ID:1 Match:788 - %97</aVL>
+    <aVF>ID:2 Match:802 - %99</aVF>
+    <V1>ID:0 Match:626 - %77</V1>
+    <V2>ID:1 Match:800 - %98</V2>
+    <V3>ID:1 Match:775 - %95</V3>
+    <V4>ID:1 Match:806 - %99</V4>
+    <V5>ID:0 Match:807 - %99</V5>
+    <V6>ID:1 Match:808 - %99</V6>
+  </Logger>
+  <Logger>
+    <Time>08:00</Time>
+    <Rate>164</Rate>
+    <Beats>965</Beats>
+    <I>ID:0 Match:816 - %84</I>
+    <II>ID:2 Match:926 - %95</II>
+    <III>ID:2 Match:924 - %95</III>
+    <aVR>ID:2 Match:916 - %94</aVR>
+    <aVL>ID:1 Match:900 - %93</aVL>
+    <aVF>ID:2 Match:926 - %95</aVF>
+    <V1>ID:0 Match:703 - %72</V1>
+    <V2>ID:1 Match:946 - %98</V2>
+    <V3>ID:1 Match:869 - %90</V3>
+    <V4>ID:1 Match:957 - %99</V4>
+    <V5>ID:0 Match:959 - %99</V5>
+    <V6>ID:1 Match:948 - %98</V6>
+  </Logger>
+  <Logger>
+    <Time>C:\Users\KN\Documents\EDM_WorkSpace\Ahmet_KUYUMCUOĞLU_47332419902\XECG_20240716_165344</Time>
+  </Logger>
+</DocumentElement>

@@ -180,17 +180,84 @@
                                             </menu>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="iDH-ZL-DuK"/>
-                                        <menuItem title="Show Sidebar" keyEquivalent="s" id="kIP-vf-haE">
-                                            <modifierMask key="keyEquivalentModifierMask" control="YES" command="YES"/>
-                                            <connections>
-                                                <action selector="toggleSidebar:" target="Ady-hI-5gd" id="iwa-gc-5KM"/>
-                                            </connections>
-                                        </menuItem>
-                                        <menuItem title="Enter Full Screen" keyEquivalent="f" id="4J7-dP-txa">
-                                            <modifierMask key="keyEquivalentModifierMask" control="YES" command="YES"/>
-                                            <connections>
-                                                <action selector="toggleFullScreen:" target="Ady-hI-5gd" id="dU3-MA-1Rq"/>
-                                            </connections>
+                                        <menuItem title="Select Leads" id="s5D-qY-LeI">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <menu key="submenu" title="Select Leads" id="5yk-YQ-jSm">
+                                                <items>
+                                                    <menuItem title="Lead I" id="MDm-cg-7a7">
+                                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                                        <connections>
+                                                            <action selector="checkSpelling:" target="Ady-hI-5gd" id="CK5-bp-Kbl"/>
+                                                        </connections>
+                                                    </menuItem>
+                                                    <menuItem title="Lead II" id="mM4-Vl-P5v">
+                                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                                        <connections>
+                                                            <action selector="checkSpelling:" target="Ady-hI-5gd" id="RBu-Or-hsf"/>
+                                                        </connections>
+                                                    </menuItem>
+                                                    <menuItem title="Lead III" id="Ebm-n6-ec4">
+                                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                                        <connections>
+                                                            <action selector="checkSpelling:" target="Ady-hI-5gd" id="tga-qg-Ff4"/>
+                                                        </connections>
+                                                    </menuItem>
+                                                    <menuItem title="Lead V1" id="iuh-mC-HGj">
+                                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                                        <connections>
+                                                            <action selector="checkSpelling:" target="Ady-hI-5gd" id="cLg-eL-4Jl"/>
+                                                        </connections>
+                                                    </menuItem>
+                                                    <menuItem title="Lead V2" id="2WQ-Kj-bTT">
+                                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                                        <connections>
+                                                            <action selector="checkSpelling:" target="Ady-hI-5gd" id="KD4-gC-beP"/>
+                                                        </connections>
+                                                    </menuItem>
+                                                    <menuItem title="Lead V3" id="IUU-7a-6OX">
+                                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                                        <connections>
+                                                            <action selector="checkSpelling:" target="Ady-hI-5gd" id="sfy-x4-FbH"/>
+                                                        </connections>
+                                                    </menuItem>
+                                                    <menuItem title="Lead V4" id="Saj-Nq-dXo">
+                                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                                        <connections>
+                                                            <action selector="checkSpelling:" target="Ady-hI-5gd" id="b05-9i-7i6"/>
+                                                        </connections>
+                                                    </menuItem>
+                                                    <menuItem title="Lead V5" id="Vym-m4-2hl">
+                                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                                        <connections>
+                                                            <action selector="checkSpelling:" target="Ady-hI-5gd" id="x7w-46-6E8"/>
+                                                        </connections>
+                                                    </menuItem>
+                                                    <menuItem title="Lead V6" id="L2D-fI-KH9">
+                                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                                        <connections>
+                                                            <action selector="checkSpelling:" target="Ady-hI-5gd" id="NYq-df-KXu"/>
+                                                        </connections>
+                                                    </menuItem>
+                                                    <menuItem title="Lead AVL" id="Y6b-XY-Qtu">
+                                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                                        <connections>
+                                                            <action selector="checkSpelling:" target="Ady-hI-5gd" id="D8O-ez-mFI"/>
+                                                        </connections>
+                                                    </menuItem>
+                                                    <menuItem title="Lead AVF" id="B1n-77-CSP">
+                                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                                        <connections>
+                                                            <action selector="checkSpelling:" target="Ady-hI-5gd" id="RCO-xX-isC"/>
+                                                        </connections>
+                                                    </menuItem>
+                                                    <menuItem title="Lead AVR" id="PHV-PV-LCQ">
+                                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                                        <connections>
+                                                            <action selector="toggleContinuousSpellChecking:" target="Ady-hI-5gd" id="WQn-zF-XmN"/>
+                                                        </connections>
+                                                    </menuItem>
+                                                </items>
+                                            </menu>
                                         </menuItem>
                                     </items>
                                 </menu>
@@ -261,7 +328,11 @@
                         <outlet property="delegate" destination="Voe-Tx-rLC" id="PrD-fu-P6m"/>
                     </connections>
                 </application>
-                <customObject id="Voe-Tx-rLC" customClass="AppDelegate"/>
+                <customObject id="Voe-Tx-rLC" customClass="AppDelegate">
+                    <connections>
+                        <outlet property="SelectLeads" destination="5yk-YQ-jSm" id="bt9-vm-Yi5"/>
+                    </connections>
+                </customObject>
                 <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -338,7 +409,7 @@
                                         <gridCells>
                                             <gridCell row="RKs-qt-K8q" column="cuW-sx-Ton" id="DeX-rv-8RE">
                                                 <button key="contentView" identifier="AddFileButton" translatesAutoresizingMaskIntoConstraints="NO" id="1PR-qb-1Fn">
-                                                    <rect key="frame" x="9" y="0.0" width="70" height="70"/>
+                                                    <rect key="frame" x="-20" y="0.0" width="70" height="70"/>
                                                     <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="openFile" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="bhO-2p-6Dj">
                                                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                                         <font key="font" metaFont="system"/>
@@ -355,7 +426,7 @@
                                             </gridCell>
                                             <gridCell row="RKs-qt-K8q" column="Co8-pn-fyX" id="Gt7-cs-lNk">
                                                 <button key="contentView" identifier="findInfo" translatesAutoresizingMaskIntoConstraints="NO" id="ms8-Zb-rZb">
-                                                    <rect key="frame" x="114" y="0.0" width="70" height="70"/>
+                                                    <rect key="frame" x="85" y="0.0" width="70" height="70"/>
                                                     <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="person" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="lfH-84-tVU">
                                                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                                         <font key="font" metaFont="system"/>
@@ -374,7 +445,7 @@
                                             </gridCell>
                                             <gridCell row="RKs-qt-K8q" column="i5l-kd-756" id="msF-St-ZAR">
                                                 <button key="contentView" identifier="SettingsButton" imageHugsTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ah5-Hp-SO2">
-                                                    <rect key="frame" x="219" y="0.0" width="70" height="70"/>
+                                                    <rect key="frame" x="190" y="0.0" width="70" height="70"/>
                                                     <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="settings" imagePosition="overlaps" alignment="center" borderStyle="border" imageScaling="axesIndependently" inset="2" id="MOb-Y9-wek">
                                                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                                         <font key="font" metaFont="system"/>
@@ -388,21 +459,33 @@
                                                     </constraints>
                                                     <accessibility identifier="SettingsButton"/>
                                                     <connections>
-                                                        <action selector="convertCsv:" target="XfG-lQ-9wD" id="Lja-Gy-ner"/>
+                                                        <action selector="downloadCSV:" target="XfG-lQ-9wD" id="XYo-oK-7Jd"/>
                                                     </connections>
                                                 </button>
                                             </gridCell>
                                             <gridCell row="RKs-qt-K8q" column="XSF-yg-kVv" id="GbV-jl-SLm">
                                                 <popUpButton key="contentView" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="c1J-WR-LXV">
-                                                    <rect key="frame" x="321" y="-4" width="75" height="75"/>
-                                                    <popUpButtonCell key="cell" type="push" title="6x2" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="fzg-rx-B5Y" id="ibF-ea-ryf">
+                                                    <rect key="frame" x="292" y="-4" width="104" height="75"/>
+                                                    <popUpButtonCell key="cell" type="push" title="All Leads" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="fzg-rx-B5Y" id="ibF-ea-ryf">
                                                         <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
                                                         <font key="font" metaFont="menu"/>
                                                         <menu key="menu" id="2av-Nm-YmY">
                                                             <items>
-                                                                <menuItem title="6x2" state="on" id="fzg-rx-B5Y"/>
-                                                                <menuItem title="3x4" id="6uM-R9-Gdu"/>
-                                                                <menuItem title="12x1" id="0ZR-g3-CCq"/>
+                                                                <menuItem title="All Leads" state="on" id="fzg-rx-B5Y"/>
+                                                                <menuItem title="Lead1" id="6uM-R9-Gdu"/>
+                                                                <menuItem title="Lead2" id="0ZR-g3-CCq"/>
+                                                                <menuItem title="Lead3" id="UCR-1D-15g"/>
+                                                                <menuItem title="Lead V1" keyEquivalent="" id="vPf-xv-KdB">
+                                                                    <modifierMask key="keyEquivalentModifierMask"/>
+                                                                </menuItem>
+                                                                <menuItem title="Lead V2" id="Gjf-bO-ZtF"/>
+                                                                <menuItem title="Lead V3" id="LQI-0p-7zl"/>
+                                                                <menuItem title="Lead V4" id="plK-1g-BsU"/>
+                                                                <menuItem title="Lead V5" id="6Td-s3-61n"/>
+                                                                <menuItem title="Lead V6" id="v6g-DM-AEO"/>
+                                                                <menuItem title="Lead AVL" id="1w2-eA-cPr"/>
+                                                                <menuItem title="Lead AVR" id="j8I-x9-3TV"/>
+                                                                <menuItem title="Lead3 AVF" id="VSS-KK-6NE"/>
                                                             </items>
                                                         </menu>
                                                     </popUpButtonCell>
@@ -466,6 +549,7 @@
                         <outlet property="addFileButton" destination="1PR-qb-1Fn" id="cE8-7d-EVD"/>
                         <outlet property="addInfoButton" destination="ms8-Zb-rZb" id="IGf-cz-pVb"/>
                         <outlet property="convertButton" destination="ah5-Hp-SO2" id="kom-4s-XRm"/>
+                        <outlet property="downloadCSV" destination="ah5-Hp-SO2" id="ZBw-ts-nPn"/>
                         <outlet property="findInfo" destination="ms8-Zb-rZb" id="Zjj-1i-OIN"/>
                         <outlet property="infoButton" destination="ms8-Zb-rZb" id="NLt-lY-lL6"/>
                     </connections>
@@ -479,6 +563,6 @@
         <image name="download" width="200" height="189"/>
         <image name="openFile" width="204" height="192"/>
         <image name="person" width="165" height="148"/>
-        <image name="settings" width="200" height="146"/>
+        <image name="settings" width="204" height="192"/>
     </resources>
 </document>
